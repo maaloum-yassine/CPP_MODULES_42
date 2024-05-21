@@ -20,11 +20,11 @@
 
 class BitcoinExchange
 {
-	std:: map<std::string, double> list_data;
+	std:: map<std::string, double> 			list_data;
 	std ::ifstream 					_Dbase;
 	std ::ifstream 					_File;
 	std :: string					_Path_file;
-	char							_openfile;
+	char						_openfile;
 	BitcoinExchange();
 	BitcoinExchange(const std::string& Path_file) ;
 	BitcoinExchange(const BitcoinExchange&);
