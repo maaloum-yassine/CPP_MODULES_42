@@ -21,18 +21,18 @@
 #include <chrono>
 
 
-typedef std::vector<std::vector<unsigned	int> >						VcoFvc;
-typedef std::vector<unsigned	int>								 	Vc;
-typedef std::list<std::list<unsigned	int> >							lstcoFlst;
-typedef std::list<unsigned	int> 										lst;
-typedef std::chrono::high_resolution_clock 								Clock;
-typedef std::chrono::microseconds 										microscds;
+typedef std::vector	<std::vector<unsigned int>>						VcoFvc;
+typedef std::vector	<unsigned int>								Vc;
+typedef std::list	<std::list<unsigned int>>						lstcoFlst;
+typedef std::list	<unsigned int> 								lst;
+typedef std::chrono::high_resolution_clock 							Clock;
+typedef std::chrono::microseconds 								microscds;
 
 class PmergeMe
 {
 		VcoFvc 									_list_number_vec;
 		lstcoFlst								_list_number_lst;
-		std :: string							_input;
+		std :: string								_input;
 		size_t									_size_list_vec;
 		size_t									_size_list_lst;
 
