@@ -12,20 +12,20 @@
 
 
 CXX			=	g++
-CXXFLAGS	=	-Wall -Wextra -Werror -std=c++98
-NAME		=	PmergeMe
+CXXFLAGS		=	-Wall -Wextra -Werror -std=c++98
+NAME			=	PmergeMe
 SRC			=	main.cpp \
 				PmergeMe.cpp \
 
 
 
-RESET	= 	\033[1;97m
-GREEN 	= 	\033[1;32m
+RESET		= 	\033[1;97m
+GREEN 		= 	\033[1;32m
 RED		= 	\033[1;31m
 
 OBJ		=	$(SRC:.cpp=.o)
 OBJ		:=	$(addprefix obj/, $(OBJ))
-OBJ_DIR	=	obj/
+OBJ_DIR		=	obj/
 
 all: $(OBJ_DIR) $(NAME)
 
