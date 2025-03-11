@@ -43,7 +43,7 @@ make
 > This module is designed to help you understand Ad-hoc polymorphism, overloads and orthodox canonical classes in CPP.
 #### [ [100/100] Module_03]
 > This module is designed to help you understand Inheritance in CPP.
-#### [ [80/100] Module_04]
+#### [ [100/100] Module_04]
 > This module is designed to help you understand Subtype polymorphism, abstract classes and interfaces in CPP.
 #### [ [100/100] Module_05]
 > This module is designed to help you understand Try/Catch and Exceptions in CPP.
