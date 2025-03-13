@@ -14,7 +14,7 @@ git clone git@github.com:maaloum-yassine/CPP_MODULES_42.git && cd CPP_MODULES_42
 ```
 2. Cd to the module and exercise and 
 ```
-cd cpp-module-0[1 - 9] && cd ex00
+cd Module_00[1 - 9] && cd ex00
 ```
 3. Run `make`
 ```
